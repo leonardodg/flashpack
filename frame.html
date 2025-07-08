@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script src="CSJSRequestObject.js"></script>
+<script language="javascript">
+function escrever(x){
+  n=Request.QueryString("x");
+  name='"iframe"';
+  if(x == 1 || n == 1){
+  links='"produtos2.html"';
+  texto='<iframe name='+name+'src='+links+'id='+name+'></iframe>';
+  //document.getElementById("link1").style.visibility="hidden";
+  //document.getElementById("link1").style.display="none";
+  }
+  if(x == 2 || n == 2){
+  links='"empresa2.html"';
+  texto='<iframe name='+name+'src='+links+'id='+name+'></iframe>';
+  }
+  if(x == 3 || n == 3){
+  links='"contatos2.html"';
+  texto='<iframe name='+name+'src='+links+'id='+name+'></iframe>';
+  }
+  if(x == 4 || n == 4){
+  links='"fersul2.html"';
+  texto='<iframe name='+name+'src='+links+'id='+name+'></iframe>';
+  }
+  if(x == 5 || n == 5){
+  name='"imagem"';
+  links='imagem/natal.jpg';
+  texto='<img name='+name+'src='+links+' id='+name+'>';
+  } 
+ document.getElementById("meio").innerHTML = texto;
+}
+</script>
+</head>
+<body >
+<p>Menu </p>
+<a href="produtos2.html" target="iframe" onClick="javascript:escrever('1');" id="link1"><p>link1</p></a>
+<a href="empresa2.html" target="iframe" onClick="javascript:escrever('2');" id="link2"><p>link2</p></a>
+<a href="contatos2.html" target="iframe" onClick="javascript:escrever('3');" id="link3"><p>link3</p></a>
+<a href="fersul2.html" target="iframe" onClick="javascript:escrever('4');" id="link4"><p>link4</p></a>
+<a href="#" target="_self"  onClick="javascript:escrever('5');" id="link5"><p>link5</p></a>
+<p>------------------------------</p>
+<p>Frame </p>
+<div id="meio" style="">
+<script type="text/javascript">window.onload = function(){escrever();}</script>
+</div>
+</body>
+</html>

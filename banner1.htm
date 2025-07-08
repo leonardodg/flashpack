@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>JavaPalace</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#0a2968" vlink="#000000" alink="#fa8f00" onLoad="escolhetexto()" background="fundocortado.JPG">
+<script  language="JavaScript">
+<!--
+var max=0;
+function textlist(){
+  max=textlist.arguments.length;
+    for (i=0; i<max; i++)
+      this[i]=textlist.arguments[i];
+}
+
+tl=new textlist(
+"                Banner legal né?",
+"      http://www.bwhp.cjb.net!"
+);
+
+var x=0; pos=0;
+var l=tl[0].length;
+function escolhetexto() {        
+document.form1.textfeld.value=tl[x].substring(0,pos)+"_";
+       if(pos++==l){
+	     pos=0;
+         setTimeout("escolhetexto()",1200);
+         x++;
+          if(x==max)
+           x=0;
+          l=tl[x].length;
+        }else
+          setTimeout("escolhetexto()",80);
+}
+// 
+// -->
+</script>
+<h1 align="center">&nbsp; </h1>
+<center>
+  <form method="POST"  name="form1">
+    <div align="left">
+      <input type="text" size="38" name="textfeld">
+      <br>
+    </div>
+  </form>
+</center>
+</body>
+</html>
