@@ -7,12 +7,10 @@ A frontend from my first Website development to Flash Pack Embalagens Company wi
 <img width="800" height="600" alt="homepage" src="https://github.com/leonardodg/flashpack/blob/main/images/flashpack.gif?raw=true">
 
 
-### Technology <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=captive_portal" />
+### 💻 Technology
 
 <div style="display: inline-block; margin: 2em;" >  
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=html" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=css" />
-    <img height="48px" width="48px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original-wordmark.svg" />
+    <pre> </>  🇭 🇹 🇲 🇱   -  {} 🇨 🇸 🇸   -   <img height="48px" width="48px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original-wordmark.svg" /> </pre>
 </div>
 
 
